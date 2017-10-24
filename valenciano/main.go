@@ -12,7 +12,7 @@ func main() {
 
 	_, err := os.Open("public_html/index.html")
 	if err != nil {
-		t, err := template.ParseFiles("template/index.tmpl.html")
+		t, err := template.ParseFiles("template/index.html")
 		if err != nil {
 			fmt.Println(err)
 			os.Exit(1)

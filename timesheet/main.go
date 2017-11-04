@@ -16,12 +16,12 @@ func main() {
 
 	flag.Parse()
 
-	cfg := config.Read(from, to)
-
 	if *ef != "" {
 		excel.Read(*ef)
 		return
 	}
+
+	cfg := config.Read(from, to)
 
 	harvest.Read(cfg)
 }

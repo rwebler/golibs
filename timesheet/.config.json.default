@@ -1,0 +1,15 @@
+{
+    "from": "",
+    "to": "",
+    "ua": "User Agent Description (with Harvest user email)",
+    "accountID": "XXX",
+    "authorization": "Bearer XXX",
+    "spUser": "[nn] John Doe",
+    "dateInput": "2006-01-02",
+    "dateOutput": "01/02/2006",
+    "header": "Date\tProject\tNotes\tHours\tPerson",
+    "urls": {
+        "timeEntries": "https://api.harvestapp.com/api/v2/time_entries",
+        "projects": "https://api.harvestapp.com/api/v2/projects"
+    }
+}

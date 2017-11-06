@@ -26,3 +26,9 @@ Usage of ./timesheet:
 ```
 
 `./timesheet -from=monthly` will export a timesheet for the previous month
+
+### Notes
+
+* I pipe the output of timesheet to `pbcopy` on macOS, so that I'll just need to paste it into Tempo. Since we're able to review the timesheet in Tempo before submitting, it's safe to do so.
+
+* This config works for me because I use Harvest's `code` attribute in a Project for SP's project number (using the `[XXX] Name` format).

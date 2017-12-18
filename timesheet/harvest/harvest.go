@@ -10,7 +10,8 @@ import (
 	"os"
 	"strconv"
 	"time"
-	"timesheet/config"
+
+	"github.com/rwebler/golibs/timesheet/config"
 )
 
 type user struct {

@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"timesheet/config"
-	"timesheet/excel"
-	"timesheet/harvest"
+	"github.com/rwebler/golibs/timesheet/config"
+	"github.com/rwebler/golibs/timesheet/excel"
+	"github.com/rwebler/golibs/timesheet/harvest"
 )
 
 func main() {

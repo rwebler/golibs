@@ -6,3 +6,7 @@ on:
 jobs:
   hello:
     name: "hello world"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Write 'hello world'"
+        run: echo "hello world"
